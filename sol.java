@@ -12,7 +12,7 @@ public class Solution {
             maxWater = Math.max(maxWater, area);
 
             // Move the smaller height pointer
-            if (height[left] < height[right]) {
+             if (height[left] < height[right]) {
                 left++;
             } else {
                 right--;
